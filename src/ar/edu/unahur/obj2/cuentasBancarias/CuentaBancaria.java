@@ -1,6 +1,6 @@
 package ar.edu.unahur.obj2.cuentasBancarias;
 
-public class CuentaBancaria {
+public abstract class CuentaBancaria {
     private Double saldo = 0.0;
 
     public Double getSaldo() {
@@ -10,5 +10,7 @@ public class CuentaBancaria {
     public void setSaldo(Double saldo) {
         this.saldo = saldo;
     }
+
+    public abstract void extraerDinero(Double retiro);
 
 }
