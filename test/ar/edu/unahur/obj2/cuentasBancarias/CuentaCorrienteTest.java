@@ -5,7 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CuentaCorrienteTest {
-    CuentaCorriente cuenta = new CuentaCorriente();
+
+    private CuentaCorriente cuenta = new CuentaCorriente();
 
     @Test
     public void saldoEnCuentaCorriente() {

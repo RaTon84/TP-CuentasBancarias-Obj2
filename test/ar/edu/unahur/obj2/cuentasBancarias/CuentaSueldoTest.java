@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class CuentaSueldoTest {
 
-    CuentaSueldo cuenta = new CuentaSueldo();
+    private CuentaSueldo cuenta = new CuentaSueldo();
 
     @Test
     public void saldoEnCuentaSueldo() {

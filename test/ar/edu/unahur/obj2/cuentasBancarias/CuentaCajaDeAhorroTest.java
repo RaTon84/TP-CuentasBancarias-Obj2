@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class CuentaCajaDeAhorroTest {
 
-    CuentaCajaDeAhorro cuenta = new CuentaCajaDeAhorro();
+    private CuentaCajaDeAhorro cuenta = new CuentaCajaDeAhorro();
 
     @Test
     public void saldoEnCuentaCajaDeAhorro() {
